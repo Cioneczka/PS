@@ -1,7 +1,6 @@
 # Kalkulator z zapisem do bazy danych
 
 **Główny katalog:**  
-`C:\Users\trzci\IdeaProjects\java`
 
 - `.idea` – ustawienia projektu w IntelliJ IDEA  
 - `out` – katalog z kompilowanymi plikami  
