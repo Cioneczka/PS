@@ -44,7 +44,7 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 
 ---
 
-## e. Wymagania
+##  Wymagania
 
 ### i. Wymagania funkcjonalne
 
@@ -61,7 +61,7 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 
 ---
 
-## f. Ograniczenia (sprzęt, oprogramowanie)
+##  Ograniczenia (sprzęt, oprogramowanie)
 
 - Wymaga zainstalowanej bazy danych Oracle i dostępnego serwera lokalnego lub zdalnego  
 - Potrzebna jest zainstalowana i skonfigurowana Java Runtime Environment (JRE) w wersji 8 lub wyższej  
