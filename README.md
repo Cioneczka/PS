@@ -2,7 +2,7 @@
 
 **Nazwa projektu:** Kalkulator z zapisem do bazy danych  
 **Skrót:** CalcDB  
-**Autorzy:** Jan Kowalski, Anna Nowak
+**Autorzy:** Łukasz Trzcionka, Marcel Smarczyk
 
 ---
 
