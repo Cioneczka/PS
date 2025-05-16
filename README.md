@@ -19,7 +19,7 @@
   - Graficzny interfejs użytkownika (Java Swing)  
   - Zapis wykonywanych działań i wyników w bazie danych  
 - **Odbiorca docelowy:** Studenci i osoby uczące się podstaw programowania w Javie i baz danych.  
-- **Adres repozytorium:** (https://github.com/Cioneczka/PS/blob/main/README.md) 
+- **Adres repozytorium:** (https://github.com/Cioneczka/PS/) 
 - **Link do działającej aplikacji:** (tu wstaw link do demo, jeśli jest dostępny)  
 
 ---
