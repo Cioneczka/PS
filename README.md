@@ -71,6 +71,8 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 ## Diagram przypadków
 ![image](https://github.com/user-attachments/assets/b823cffb-1930-4ed8-8822-f97c647c1cb2)
 
+---
+
 ##Scenariusze przypadków użycia
 
 | **Atrybut**                 | **Opis**                                                                                                             |
@@ -83,6 +85,7 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 | **Scenariusz alternatywny** | Dzielnie przez zero → wyświetlany komunikat „Nie można dzielić przez zero”                                           |
 | **Wynik końcowy**           | Wynik działania lub komunikat o błędzie                                                                              |
 
+---
 
 | **Atrybut**                 | **Opis**                                                                                                    |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------- |
