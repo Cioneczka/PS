@@ -73,7 +73,7 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 
 ---
 
-##Scenariusze przypadków użycia
+### Scenariusze przypadków użycia
 
 | **Atrybut**                 | **Opis**                                                                                                             |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------- |
