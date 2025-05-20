@@ -71,4 +71,13 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 ## Diagram przypadków
 ![image](https://github.com/user-attachments/assets/b823cffb-1930-4ed8-8822-f97c647c1cb2)
 
+| **Atrybut**                 | **Opis**                                                                                                             |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Nazwa**                   | Oblicz wynik                                                                                                         |
+| **Aktor**                   | Użytkownik                                                                                                           |
+| **Cel**                     | Obliczenie wyniku działania matematycznego                                                                           |
+| **Założenia**               | - Aplikacja działa poprawnie<br>- Wprowadzone dane są poprawne                                                       |
+| **Scenariusz główny**       | 1. Użytkownik wpisuje liczby i operator<br>2. Klika `=`<br>3. Program liczy<br>4. Wynik pojawia się w polu tekstowym |
+| **Scenariusz alternatywny** | Dzielnie przez zero → wyświetlany komunikat „Nie można dzielić przez zero”                                           |
+| **Wynik końcowy**           | Wynik działania lub komunikat o błędzie                                                                              |
 
