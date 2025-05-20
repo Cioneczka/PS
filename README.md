@@ -65,9 +65,10 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 
 - Wymaga zainstalowanej bazy danych Oracle i dostępnego serwera lokalnego lub zdalnego  
 - Potrzebna jest zainstalowana i skonfigurowana Java Runtime Environment (JRE) w wersji 8 lub wyższej
+- Aplikacja działa na desktopach z systemem Windows/Linux/macOS obsługującym Javę  
+- Obecna implementacja nie obsługuje zaawansowanych operacji matematycznych ani walidacji błędów  
 
 ## Diagram przypadków
 ![image](https://github.com/user-attachments/assets/b823cffb-1930-4ed8-8822-f97c647c1cb2)
 
-- Aplikacja działa na desktopach z systemem Windows/Linux/macOS obsługującym Javę  
-- Obecna implementacja nie obsługuje zaawansowanych operacji matematycznych ani walidacji błędów  
+
