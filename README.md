@@ -71,6 +71,8 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 ## Diagram przypadków
 ![image](https://github.com/user-attachments/assets/b823cffb-1930-4ed8-8822-f97c647c1cb2)
 
+##Scenariusze przypadków użycia
+
 | **Atrybut**                 | **Opis**                                                                                                             |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Nazwa**                   | Oblicz wynik                                                                                                         |
@@ -80,4 +82,15 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 | **Scenariusz główny**       | 1. Użytkownik wpisuje liczby i operator<br>2. Klika `=`<br>3. Program liczy<br>4. Wynik pojawia się w polu tekstowym |
 | **Scenariusz alternatywny** | Dzielnie przez zero → wyświetlany komunikat „Nie można dzielić przez zero”                                           |
 | **Wynik końcowy**           | Wynik działania lub komunikat o błędzie                                                                              |
+
+
+| **Atrybut**                 | **Opis**                                                                                                    |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Nazwa**                   | Zapisz wynik do bazy                                                                                        |
+| **Aktor**                   | Aplikacja                                                                                                   |
+| **Cel**                     | Zapisanie równania i wyniku do bazy danych                                                                  |
+| **Założenia**               | - Połączenie z bazą działa<br>- Tabela `calculations` istnieje                                              |
+| **Scenariusz główny**       | 1. Kliknięcie `=` oblicza wynik<br>2. Łączy się z bazą danych<br>3. Wysyła `INSERT`<br>4. Zamyka połączenie |
+| **Scenariusz alternatywny** | Brak połączenia → komunikat „Nie można zapisać danych”                                                      |
+| **Wynik końcowy**           | Wynik i działanie są zapisane do bazy lub pojawia się błąd                                                  |
 
