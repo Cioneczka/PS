@@ -158,22 +158,6 @@ Robust (Solidność)
 
 Aplikacja napisana w Javie z wykorzystaniem Swinga działa stabilnie i przewidywalnie niezależnie od systemu operacyjnego.
 
-### 🔹 Wsparcie dla osób z niepełnosprawnościami
-Wzrok
-
-W planach jest implementacja wsparcia dla screen readerów (czytników ekranu) poprzez dostosowanie AccessibleContext w komponentach Swing.
-
-Możliwość powiększenia interfejsu (np. przez skalowanie GUI na podstawie ustawień systemowych).
-
-Słuch
-
-Aplikacja nie wymaga interakcji dźwiękowej ani nie emituje sygnałów dźwiękowych, więc brak słuchu nie wpływa na jej użytkowanie.
-
-Koordynacja ruchowa
-
-Duże przyciski i możliwość obsługi klawiaturą wspierają użytkowników z ograniczoną precyzją ruchów.
-
-
 
 
 
