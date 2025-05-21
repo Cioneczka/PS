@@ -158,6 +158,13 @@ Robust (Solidność)
 
 Aplikacja napisana w Javie z wykorzystaniem Swinga działa stabilnie i przewidywalnie niezależnie od systemu operacyjnego.
 
+### Diagramy klas
+Kalkulator
+![image](https://github.com/user-attachments/assets/8996c3bd-5d6a-4134-8947-45bba0976b8f)
+
+DatabaseManager
+![image](https://github.com/user-attachments/assets/14cf4fab-71d3-4ea2-83f8-6bbcdc7d107f)
+
 
 
 
