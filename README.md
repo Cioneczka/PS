@@ -249,7 +249,7 @@ git clone https://github.com/NazwaUzytkownika/NazwaRepozytorium.git
 cd NazwaRepozytorium
 ```
 ### 2. Otwórz plik DatabaseManager.java
---wprowadź odpowiednie dane logowania do bazy
+wprowadź odpowiednie dane logowania do bazy
 
 ```bash
 import java.sql.*;
