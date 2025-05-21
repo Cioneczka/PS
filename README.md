@@ -97,3 +97,15 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 | **Scenariusz alternatywny** | Brak połączenia → komunikat „Nie można zapisać danych”                                                      |
 | **Wynik końcowy**           | Wynik i działanie są zapisane do bazy lub pojawia się błąd                                                  |
 
+### Baza danych 
+![image](https://github.com/user-attachments/assets/3a18a1eb-ff84-410b-b8ed-d16c8d101d92)
+
+### Diagram sekwencji - obliczanie i zapis wyniku
+
+![Diagram sekwencji](./assets/sequence-diagram.png)
+
+
+
+
+
+
