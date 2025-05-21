@@ -1,5 +1,16 @@
 # Kalkulator z zapisem do bazy danych
 
+## 📑 Spis treści
+
+1. [Start](#kalkulator-z-zapisem-do-bazy-danych)
+2. [Wymagania systemowe](#wymagania)
+3. [Scenariusze](#scenariusze-przypadków-użycia)
+4. [Baza danych](#baza-danych)
+5. [Dokumentacja bezpieczeństwa](#dokumentacja-bezpieczeństwa)
+6. [Zgodność z WCAG](#WCAG)
+7. [Przypadki testowe](#test-case)
+8. [Instalacja](#instal)
+
 **Główny katalog:**  
 
 - `.idea` – ustawienia projektu w IntelliJ IDEA  
@@ -277,16 +288,7 @@ public class DatabaseManager {
     }
 }
 ```
-## 📑 Spis treści
 
-1. [Start](#kalkulator-z-zapisem-do-bazy-danych)
-2. [Wymagania systemowe](#wymagania)
-3. [Scenariusze](#scenariusze-przypadków-użycia)
-4. [Baza danych](#baza-danych)
-5. [Dokumentacja bezpieczeństwa](#dokumentacja-bezpieczeństwa)
-6. [Zgodność z WCAG](#WCAG)
-7. [Przypadki testowe](#test-case)
-8. [Instalacja](#instal)
 
 
 
