@@ -169,6 +169,59 @@ DatabaseManager
 ![image](https://github.com/user-attachments/assets/14cf4fab-71d3-4ea2-83f8-6bbcdc7d107f)
 
 
+# ✅ Przypadki testowe – Aplikacja Kalkulator z zapisem do bazy danych
+
+## 🔢 Test Case 1 – Dodawanie dwóch liczb całkowitych
+
+- **ID:** TC-01  
+- **Opis:** Sprawdzenie poprawności działania dodawania oraz zapisu do bazy danych.  
+- **Dane wejściowe:**  
+  - Liczba 1: `5`  
+  - Liczba 2: `3`  
+  - Operator: `+`  
+- **Kroki:**
+  1. Uruchom aplikację kalkulatora.
+  2. Wprowadź liczbę `5`.
+  3. Wybierz operator `+`.
+  4. Wprowadź liczbę `3`.
+  5. Kliknij przycisk `=`.
+  6. Sprawdź wynik.
+  7. Sprawdź zawartość bazy danych (czy zapisano `5 + 3 = 8`).
+- **Oczekiwany rezultat:**  
+  - Wynik wyświetlony na ekranie: `8`  
+  - W bazie danych istnieje rekord:  
+    ```
+    równanie: "5 + 3"
+    znak: "+"
+    wynik: 8
+    ```
+
+---
+
+## ➗ Test Case 2 – Dzielenie liczb dziesiętnych
+
+- **ID:** TC-02  
+- **Opis:** Sprawdzenie poprawności dzielenia i zapisu równania z liczbami zmiennoprzecinkowymi.  
+- **Dane wejściowe:**  
+  - Liczba 1: `7.5`  
+  - Liczba 2: `2.5`  
+  - Operator: `/`  
+- **Kroki:**
+  1. Uruchom aplikację kalkulatora.
+  2. Wprowadź liczbę `7.5`.
+  3. Wybierz operator `/`.
+  4. Wprowadź liczbę `2.5`.
+  5. Kliknij przycisk `=`.
+  6. Sprawdź wynik.
+  7. Sprawdź, czy dane zostały zapisane w bazie.
+- **Oczekiwany rezultat:**  
+  - Wynik: `3.0`  
+  - Rekord w bazie:  
+    ```
+    równanie: "7.5 / 2.5"
+    znak: "/"
+    wynik: 3.0
+    ```
 
 
 
