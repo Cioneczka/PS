@@ -222,6 +222,33 @@ DatabaseManager
     znak: "/"
     wynik: 3.0
     ```
+## Diagram komponentów 
+![image](https://github.com/user-attachments/assets/f7271010-a109-4334-b7a5-3a553bbf34e5)
+
+## Diagram wdrożenia
+![image](https://github.com/user-attachments/assets/60fddc01-9eda-4a88-bbf3-c82ab6d31dd5) 
+
+## Konfiguracja i wdrożenie
+
+#  Instalacja i Konfiguracja (CI/CD)
+
+## Wymagania wstępne
+
+- ✅ Java Development Kit (JDK) 17+
+- ✅ IntelliJ IDEA lub inne IDE obsługujące Javę
+- ✅ Oracle Database (lokalnie lub zdalnie)
+- ✅ Git
+- ✅ Maven (jeśli projekt korzysta)
+- ✅ GitHub Actions (jeśli wdrażane CI/CD)
+
+---
+### 1. Sklonuj repozytorium
+
+```bash
+git clone https://github.com/NazwaUzytkownika/NazwaRepozytorium.git
+cd NazwaRepozytorium
+
+
 
 
 
