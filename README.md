@@ -169,9 +169,9 @@ DatabaseManager
 ![image](https://github.com/user-attachments/assets/14cf4fab-71d3-4ea2-83f8-6bbcdc7d107f)
 
 
-# ✅ Przypadki testowe – Aplikacja Kalkulator z zapisem do bazy danych
+# Przypadki testowe – Aplikacja Kalkulator z zapisem do bazy danych
 
-## 🔢 Test Case 1 – Dodawanie dwóch liczb całkowitych
+## Test Case 1 – Dodawanie dwóch liczb całkowitych
 
 - **ID:** TC-01  
 - **Opis:** Sprawdzenie poprawności działania dodawania oraz zapisu do bazy danych.  
@@ -198,7 +198,7 @@ DatabaseManager
 
 ---
 
-## ➗ Test Case 2 – Dzielenie liczb dziesiętnych
+## Test Case 2 – Dzielenie liczb dziesiętnych
 
 - **ID:** TC-02  
 - **Opis:** Sprawdzenie poprawności dzielenia i zapisu równania z liczbami zmiennoprzecinkowymi.  
