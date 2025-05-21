@@ -110,3 +110,5 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 
 
 
+
+
