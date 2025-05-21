@@ -1,0 +1,14 @@
+@startuml
+actor User
+participant "Calculator GUI" as GUI
+participant "Calculator Logic" as Logic
+participant "DatabaseManager" as DB
+
+User -> GUI : Naciśnij "="
+GUI -> Logic : oblicz(wyrażenie)
+Logic -> Logic : wykonaj operację (+, -, *, /)
+Logic -> DB : saveCalculation(wyrażenie, operator, wynik)
+DB --> Logic : potwierdzenie zapisu
+Logic --> GUI : wynik obliczeń
+GUI --> User : Wyświetl wynik
+@enduml
