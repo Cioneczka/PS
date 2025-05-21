@@ -247,6 +247,33 @@ DatabaseManager
 ```bash
 git clone https://github.com/NazwaUzytkownika/NazwaRepozytorium.git
 cd NazwaRepozytorium
+```
+### 2. Otwórz plik DatabaseManager.java
+--wprowadź odpowiednie dane logowania do bazy
+
+```bash
+import java.sql.*;
+
+public class DatabaseManager {
+    private static final String URL = "jdbc:oracle:thin:@//localhost:1521/orcl1";
+    private static final String USER = "twoja_nazwa_uzytkownika";
+    private static final String PASSWORD = "twoje_haslo";
+
+    public static void saveCalculation(String equation, String operation, double result) {
+        try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
+            String query = "INSERT INTO calculations (equation, operation, result) VALUES (?, ?, ?)";
+            try (PreparedStatement stmt = conn.prepareStatement(query)) {
+                stmt.setString(1, equation);
+                stmt.setString(2, operation);
+                stmt.setDouble(3, result);
+                stmt.executeUpdate();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
 
 
 
