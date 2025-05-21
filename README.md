@@ -232,6 +232,7 @@ DatabaseManager
 
 ## Konfiguracja i wdrożenie
 
+<a id='instal'><a>
 #  Instalacja i Konfiguracja (CI/CD)
 
 ## Wymagania wstępne
@@ -276,12 +277,6 @@ public class DatabaseManager {
     }
 }
 ```
-
-# Dokumentacja użytkownika
-
-
-# 📘 Podręcznik Użytkownika – Kalkulator z Bazą Danych
-
 ## 📑 Spis treści
 
 1. [Start](#kalkulator-z-zapisem-do-bazy-danych)
@@ -291,25 +286,9 @@ public class DatabaseManager {
 5. [Dokumentacja bezpieczeństwa](#dokumentacja-bezpieczeństwa)
 6. [Zgodność z WCAG](#WCAG)
 7. [Przypadki testowe](#test-case)
-8. [Rozwiązywanie problemów](#rozwiązywanie-problemów)
-9. [Kontakt i wsparcie](#kontakt-i-wsparcie)
+8. [Instalacja](#instal)
 
----
 
-## 4. 🔄 Uruchamianie aplikacji
-
-Aby uruchomić kalkulator:
-
-### 📍 IntelliJ IDEA:
-1. Otwórz projekt w IntelliJ IDEA.
-2. Znajdź plik `Calculator.java` w folderze `src/`.
-3. Kliknij prawym przyciskiem myszy → **Run 'Calculator.main()'**.
-4. Interfejs graficzny pojawi się na ekranie.
-
-### 🖥️ Z terminala:
-1. Przejdź do folderu źródłowego:
-   ```bash
-   cd src
 
 
 
