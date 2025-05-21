@@ -132,6 +132,8 @@ Dane wprowadzane przez użytkownika są walidowane przed zapisem do bazy, co zap
 ### -Rejestrowanie operacji
 Aplikacja może zostać rozszerzona o funkcjonalność logowania operacji wraz ze znacznikiem czasu, co pozwoli na późniejszą analizę bezpieczeństwa i wykrywanie nieprawidłowych działań.
 
+<a id="WCAG"></a>
+
 ## Zastosowane rozwiązania zwiększające dostępność (Deklaracja zgodności z WCAG)
 Aplikacja Kalkulator została zaprojektowana z uwzględnieniem podstawowych zasad dostępności zgodnych z wytycznymi WCAG (Web Content Accessibility Guidelines) na poziomie AA, z naciskiem na wsparcie dla osób z niepełnosprawnościami wzroku, słuchu oraz ograniczeniami ruchowymi.
 
@@ -168,7 +170,7 @@ DatabaseManager
 
 ![image](https://github.com/user-attachments/assets/14cf4fab-71d3-4ea2-83f8-6bbcdc7d107f)
 
-
+<a id='test-case'><a>
 # Przypadki testowe – Aplikacja Kalkulator z zapisem do bazy danych
 
 ## Test Case 1 – Dodawanie dwóch liczb całkowitych
@@ -283,12 +285,12 @@ public class DatabaseManager {
 ## 📑 Spis treści
 
 1. [Start](#kalkulator-z-zapisem-do-bazy-danych)
-2. [Wymagania systemowe](#wymagania-systemowe)
-3. [Instalacja](#instalacja)
-4. [Uruchamianie aplikacji](#uruchamianie-aplikacji)
-5. [Interfejs użytkownika](#interfejs-użytkownika)
-6. [Wykonywanie obliczeń](#wykonywanie-obliczeń)
-7. [Zapis wyników do bazy danych](#zapis-wyników-do-bazy-danych)
+2. [Wymagania systemowe](#wymagania)
+3. [Scenariusze](#scenariusze-przypadków-użycia)
+4. [Baza danych](#baza-danych)
+5. [Dokumentacja bezpieczeństwa](#dokumentacja-bezpieczeństwa)
+6. [Zgodność z WCAG](#WCAG)
+7. [Przypadki testowe](#test-case)
 8. [Rozwiązywanie problemów](#rozwiązywanie-problemów)
 9. [Kontakt i wsparcie](#kontakt-i-wsparcie)
 
