@@ -98,16 +98,40 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 | **Wynik końcowy**           | Wynik i działanie są zapisane do bazy lub pojawia się błąd                                                  |
 
 ### Baza danych 
+
 ![image](https://github.com/user-attachments/assets/3a18a1eb-ff84-410b-b8ed-d16c8d101d92)
 
 ### Diagram sekwencji - obliczanie i zapis wyniku
+
 ![image](https://github.com/user-attachments/assets/28389585-bc80-452b-8090-bf843114ad8b)
 
 ### Diagram aktywności
+
 ![image](https://github.com/user-attachments/assets/650de2dd-cbf3-4fe7-8b1f-3e6ad3fd4db1)
 
-### Diagram stanów
+### Diagram stanóww
+
 ![image](https://github.com/user-attachments/assets/e86fd42d-3bd4-46e4-98c2-22612715faa6)
+
+### Dokumentacja bezpieczeństwa
+
+# - Bezpieczeństwo danych podczas składowania
+Uwierzytelnianie użytkownika bazy danych
+Dostęp do bazy danych Oracle możliwy jest wyłącznie po podaniu prawidłowej nazwy użytkownika oraz hasła. W środowisku produkcyjnym nie używa się konta SYS, tylko tworzy się dedykowanego użytkownika z ograniczonymi uprawnieniami (np. tylko INSERT i SELECT na jednej tabeli).
+
+# - Ograniczenia uprawnień (principle of least privilege)
+Użytkownik bazy danych posiada tylko minimalny zestaw uprawnień niezbędnych do zapisu danych do tabeli calculations. Nie ma możliwości wykonywania operacji administracyjnych, takich jak DROP, ALTER, czy DELETE poza kontekstem aplikacyjnym.
+
+# -Szyfrowanie danych w bazie (Transparent Data Encryption - TDE)
+Oracle Database wspiera Transparent Data Encryption (TDE), które może być użyte do automatycznego szyfrowania danych przechowywanych w tabelach bez konieczności zmian w kodzie aplikacji.
+
+# -Bezpieczeństwo aplikacji
+Obsługa wyjątków i walidacja danych wejściowych
+Dane wprowadzane przez użytkownika są walidowane przed zapisem do bazy, co zapobiega np. wstrzyknięciom SQL (SQL Injection). Wszystkie zapytania są wykonywane z wykorzystaniem PreparedStatement, co neutralizuje możliwość wstrzyknięcia kodu.
+
+# -Rejestrowanie operacji
+Aplikacja może zostać rozszerzona o funkcjonalność logowania operacji wraz ze znacznikiem czasu, co pozwoli na późniejszą analizę bezpieczeństwa i wykrywanie nieprawidłowych działań.
+
 
 
 
