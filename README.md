@@ -101,9 +101,11 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 ![image](https://github.com/user-attachments/assets/3a18a1eb-ff84-410b-b8ed-d16c8d101d92)
 
 ### Diagram sekwencji - obliczanie i zapis wyniku
-
-
 ![image](https://github.com/user-attachments/assets/28389585-bc80-452b-8090-bf843114ad8b)
+
+### Diagram aktywności
+![image](https://github.com/user-attachments/assets/650de2dd-cbf3-4fe7-8b1f-3e6ad3fd4db1)
+
 
 
 
