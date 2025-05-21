@@ -113,7 +113,7 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 
 ![image](https://github.com/user-attachments/assets/e86fd42d-3bd4-46e4-98c2-22612715faa6)
 
-### Dokumentacja bezpieczeństwa
+## Dokumentacja bezpieczeństwa
 
 ### - Bezpieczeństwo danych podczas składowania
 Uwierzytelnianie użytkownika bazy danych
@@ -132,7 +132,46 @@ Dane wprowadzane przez użytkownika są walidowane przed zapisem do bazy, co zap
 ### -Rejestrowanie operacji
 Aplikacja może zostać rozszerzona o funkcjonalność logowania operacji wraz ze znacznikiem czasu, co pozwoli na późniejszą analizę bezpieczeństwa i wykrywanie nieprawidłowych działań.
 
+### Zastosowane rozwiązania zwiększające dostępność (Deklaracja zgodności z WCAG)
+Aplikacja Kalkulator została zaprojektowana z uwzględnieniem podstawowych zasad dostępności zgodnych z wytycznymi WCAG (Web Content Accessibility Guidelines) na poziomie AA, z naciskiem na wsparcie dla osób z niepełnosprawnościami wzroku, słuchu oraz ograniczeniami ruchowymi.
 
+🔹 Zgodność z WCAG
+Perceivable (Postrzegalność)
+
+Zastosowano duże i czytelne przyciski o wysokim kontraście (np. czarny tekst na jasnym tle).
+
+Pola tekstowe (np. wyświetlacz) mają odpowiednią wielkość czcionki oraz jasne oznaczenia.
+
+Operable (Funkcjonalność)
+
+Wszystkie funkcje aplikacji mogą być obsługiwane za pomocą klawiatury (np. wprowadzanie liczb i operacji).
+
+Brak elementów migających lub dynamicznych, które mogłyby powodować problemy dla użytkowników z epilepsją.
+
+Understandable (Zrozumiałość)
+
+Interfejs jest prosty i intuicyjny — przyciski są jednoznacznie oznaczone (np. „+”, „=”, „C”).
+
+Komunikaty (np. wynik działania, błędy) są zwięzłe i zrozumiałe.
+
+Robust (Solidność)
+
+Aplikacja napisana w Javie z wykorzystaniem Swinga działa stabilnie i przewidywalnie niezależnie od systemu operacyjnego.
+
+🔹 Wsparcie dla osób z niepełnosprawnościami
+Wzrok
+
+W planach jest implementacja wsparcia dla screen readerów (czytników ekranu) poprzez dostosowanie AccessibleContext w komponentach Swing.
+
+Możliwość powiększenia interfejsu (np. przez skalowanie GUI na podstawie ustawień systemowych).
+
+Słuch
+
+Aplikacja nie wymaga interakcji dźwiękowej ani nie emituje sygnałów dźwiękowych, więc brak słuchu nie wpływa na jej użytkowanie.
+
+Koordynacja ruchowa
+
+Duże przyciski i możliwość obsługi klawiaturą wspierają użytkowników z ograniczoną precyzją ruchów.
 
 
 
