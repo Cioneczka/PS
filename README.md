@@ -132,10 +132,10 @@ Dane wprowadzane przez użytkownika są walidowane przed zapisem do bazy, co zap
 ### -Rejestrowanie operacji
 Aplikacja może zostać rozszerzona o funkcjonalność logowania operacji wraz ze znacznikiem czasu, co pozwoli na późniejszą analizę bezpieczeństwa i wykrywanie nieprawidłowych działań.
 
-### Zastosowane rozwiązania zwiększające dostępność (Deklaracja zgodności z WCAG)
+## Zastosowane rozwiązania zwiększające dostępność (Deklaracja zgodności z WCAG)
 Aplikacja Kalkulator została zaprojektowana z uwzględnieniem podstawowych zasad dostępności zgodnych z wytycznymi WCAG (Web Content Accessibility Guidelines) na poziomie AA, z naciskiem na wsparcie dla osób z niepełnosprawnościami wzroku, słuchu oraz ograniczeniami ruchowymi.
 
-🔹 Zgodność z WCAG
+### 🔹 Zgodność z WCAG
 Perceivable (Postrzegalność)
 
 Zastosowano duże i czytelne przyciski o wysokim kontraście (np. czarny tekst na jasnym tle).
@@ -158,7 +158,7 @@ Robust (Solidność)
 
 Aplikacja napisana w Javie z wykorzystaniem Swinga działa stabilnie i przewidywalnie niezależnie od systemu operacyjnego.
 
-🔹 Wsparcie dla osób z niepełnosprawnościami
+### 🔹 Wsparcie dla osób z niepełnosprawnościami
 Wzrok
 
 W planach jest implementacja wsparcia dla screen readerów (czytników ekranu) poprzez dostosowanie AccessibleContext w komponentach Swing.
