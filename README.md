@@ -275,8 +275,39 @@ public class DatabaseManager {
 }
 ```
 
+# Dokumentacja użytkownika
 
 
+# 📘 Podręcznik Użytkownika – Kalkulator z Bazą Danych
+
+## 📑 Spis treści
+
+1. [Wprowadzenie](#wprowadzenie)
+2. [Wymagania systemowe](#wymagania-systemowe)
+3. [Instalacja](#instalacja)
+4. [Uruchamianie aplikacji](#uruchamianie-aplikacji)
+5. [Interfejs użytkownika](#interfejs-użytkownika)
+6. [Wykonywanie obliczeń](#wykonywanie-obliczeń)
+7. [Zapis wyników do bazy danych](#zapis-wyników-do-bazy-danych)
+8. [Rozwiązywanie problemów](#rozwiązywanie-problemów)
+9. [Kontakt i wsparcie](#kontakt-i-wsparcie)
+
+---
+
+## 4. 🔄 Uruchamianie aplikacji
+
+Aby uruchomić kalkulator:
+
+### 📍 IntelliJ IDEA:
+1. Otwórz projekt w IntelliJ IDEA.
+2. Znajdź plik `Calculator.java` w folderze `src/`.
+3. Kliknij prawym przyciskiem myszy → **Run 'Calculator.main()'**.
+4. Interfejs graficzny pojawi się na ekranie.
+
+### 🖥️ Z terminala:
+1. Przejdź do folderu źródłowego:
+   ```bash
+   cd src
 
 
 
