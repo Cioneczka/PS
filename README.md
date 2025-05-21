@@ -282,7 +282,7 @@ public class DatabaseManager {
 
 ## 📑 Spis treści
 
-1. [Wprowadzenie](#wprowadzenie)
+1. [Start](#kalkulator-z-zapisem-do-bazy-danych)
 2. [Wymagania systemowe](#wymagania-systemowe)
 3. [Instalacja](#instalacja)
 4. [Uruchamianie aplikacji](#uruchamianie-aplikacji)
