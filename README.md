@@ -106,6 +106,10 @@ Projekt wykorzystuje wzorzec **MVC (Model-View-Controller)** w uproszczonej form
 ### Diagram aktywności
 ![image](https://github.com/user-attachments/assets/650de2dd-cbf3-4fe7-8b1f-3e6ad3fd4db1)
 
+### Diagram stanów
+![image](https://github.com/user-attachments/assets/e86fd42d-3bd4-46e4-98c2-22612715faa6)
+
+
 
 
 
